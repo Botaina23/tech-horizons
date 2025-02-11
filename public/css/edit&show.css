@@ -1,0 +1,139 @@
+ /* General container styling */
+ .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Article title */
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Article content */
+p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Article image */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Comments section */
+h2 {
+    font-size: 2rem;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Individual comment */
+.comment {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.comment strong {
+    color: #333;
+    font-weight: bold;
+}
+
+.comment p {
+    margin: 0;
+    color: #555;
+}
+
+/* Comment form */
+form {
+    margin-top: 30px;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+form textarea {
+    width: 80%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+    margin-bottom: 15px;
+}
+
+form button {
+    background-color:white;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+
+.goback {
+    position: fixed;
+    top: 12px;
+    left: 15px;
+}
+
+.goback input[type="image"] {
+    width: 45px;
+    height: auto;
+    cursor: pointer;
+}
+
+.goback input[type="image"]:hover {
+    opacity: 0.8;
+}
+.comment-form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.comment-box {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.comment-box textarea {
+    flex: 1;
+    border: none;
+    outline: none;
+    resize: none;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.comment-box button img{
+    width: 32px;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+}
+

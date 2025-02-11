@@ -1,0 +1,109 @@
+/* Dashboard Container */
+.dashboard-container {
+    display: flex;
+}
+
+/* Dashboard Menu */
+.dashboard-menu {
+    width: 200px;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.dashboard-menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.dashboard-menu ul li {
+    margin-bottom: 10px;
+}
+
+.dashboard-menu ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.dashboard-menu ul li .btn-logout {
+    background: none;
+    border: none;
+    color: #333;
+    cursor: pointer;
+}
+
+/* Dashboard Body */
+.dashboard-body {
+    flex: 1;
+    padding: 20px;
+}
+
+/* Articles Container */
+.articles-container {
+    margin-bottom: 40px;
+}
+
+.article-card {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.article-card h3 {
+    margin-top: 0;
+}
+
+.rating-section, .comment-section {
+    margin-top: 20px;
+}
+
+.comment-section .comment {
+    margin-bottom: 10px;
+}
+
+.comment-section textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+/* Write Article Form */
+.write-article {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.write-article .form-group {
+    margin-bottom: 15px;
+}
+
+.write-article .form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.write-article .form-group input,
+.write-article .form-group textarea,
+.write-article .form-group select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.write-article .btn-submit {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.write-article .btn-submit:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,169 @@
+/* General styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(1deg, #a03497, #01021d, #080014 );
+    background-size: cover;
+  }
+  img{
+    border-radius: 7px;
+  }
+  
+  /* Navigation bar styles */
+  .navbar {
+    position: fixed; /* Change sticky to fixed */
+    top: 0; /* Keep the navbar at the top of the viewport */
+    left: 0; /* Optional, to align it with the left edge */
+    width: 100%; /* Make the navbar span the full width of the viewport */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ffffff; /* Ensure background color is visible over other content */
+    border-bottom: 1px solid #ebdee1;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow */
+    z-index: 1000; /* Ensure the navbar stays above other elements */
+  }
+  
+  
+  
+  .navbar-logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .logo-icon {
+    font-size: px;
+    
+    color: #ffffff; 
+    padding: 5px 10px;
+    border-radius: 1px;
+  }
+  
+  .logo-text {
+    font-weight: bold;
+    font-size: 24px;
+    color: #152674;
+        font-weight: bold; /* Optional */
+        background: linear-gradient(90deg, #0f2dd3, #ce2ec0); /* Define gradient colors */
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+  
+      
+  }
+  
+  .navbar-links {
+    display: flex;
+    gap: 50px;
+  
+  }
+  .navbar-links a:hover{
+    text-decoration: underline;
+  }
+  
+  .navbar-links a {
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #a361b1;
+    font-size: 23px;
+    padding-right:10px ;
+    padding-top:  7px;
+    
+  }
+  
+  .navbar-actions {
+    margin-right: 25px;
+    display: flex;
+  justify-content: flex-end;
+    gap: 5px;
+    padding: 5px;
+  }
+  
+  .subscribe-btn {
+    margin-right: 25px;
+    border: 2px solid #aa18df;
+    background-color: white;
+    padding: 7px 17px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+    color: #9f2dbb;
+    transition: all 0.2s ease;
+  }
+  
+  .subscribe-btn:hover {
+    background: linear-gradient(to right,  #6c19b9,#be27fa,#ee6dff) ;
+    color: white;
+    box-shadow:  0 0 10px rgba(255, 255, 255,.2) ;
+    transform: scale(1.05,1.05);
+  
+  }
+  .subscribe-btn span {
+    position: relative;
+  }
+  
+  .login-link {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: #6f6177;
+    font-size: 16px;
+  }
+  
+  .login-link a:hover {
+    text-decoration: underline;
+  }
+  .dialogue-box {
+    display: none; /* Hidden by default */
+    position: fixed;
+    justify-content: center;
+    gap: 150px;
+    top: 35%;
+    left: 40%;
+    width: 250px;
+    height: 150px;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    background-repeat:repeat;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Ensure it appears above other content */
+  }
+  
+  .dialogue-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .dialogue-buttons {
+    margin-top: 20px;
+  
+  
+  }
+  
+  .dialogue-buttons button {
+    margin-bottom : 10px;
+    padding: 10px 70px;
+    justify-content: center;
+    border: 2px solid rgb(184, 0, 184);
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  #login-btn {
+    background: linear-gradient(90deg, #536cff, #ce2ec0);
+      color: white;
+  }
+  
+  #register-btn {
+    padding: 10px 62px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+  }
+  

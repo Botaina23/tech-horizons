@@ -1,0 +1,52 @@
+
+    /* Container for the article */
+    .container {
+        max-width: 800px;
+        margin: 50px auto;
+        padding: 20px;
+        background-color: #ffffff;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Article title styling */
+    .article-title {
+        font-size: 32px;
+        font-weight: bold;
+        color: #3b0539;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    /* Article content styling */
+    .article-content {
+        font-size: 18px;
+        color: #241f27;
+        line-height: 1.6;
+        margin-bottom: 20px;
+    }
+
+    /* Article image styling */
+    .article-image {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+        margin-bottom: 20px;
+    }
+
+    /* Back link styling */
+    .back-link {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #3b0539;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        font-size: 16px;
+        font-weight: bold;
+        transition: background-color 0.2s ease;
+    }
+
+    .back-link:hover {
+        background-color: #5a0a57; /* Darker shade on hover */
+    }

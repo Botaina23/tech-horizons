@@ -1,0 +1,89 @@
+/* Style de base pour le conteneur */
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9; /* Couleur d'arrière-plan douce */
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Ombre subtile */
+    font-family: 'Arial', sans-serif;
+}
+
+/* Style du titre */
+.container h1 {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Style des labels */
+.container label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+/* Style des champs de formulaire */
+.container input[type="text"],
+.container textarea,
+.container input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+    background-color: #fff;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.container input[type="text"]:focus,
+.container textarea:focus,
+.container input[type="file"]:focus {
+    border-color: #007BFF;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    outline: none;
+}
+
+/* Style du textarea */
+.container textarea {
+    resize: none;
+}
+
+/* Style du bouton */
+.container button {
+    display: inline-block;
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.container button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+.container button:active {
+    transform: translateY(0);
+}
+
+/* Adaptation pour les petits écrans */
+@media (max-width: 768px) {
+    .container {
+        margin: 20px;
+        padding: 15px;
+    }
+
+    .container h1 {
+        font-size: 1.5rem;
+    }
+}

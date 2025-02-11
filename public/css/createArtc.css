@@ -1,0 +1,87 @@
+ /* Container for the form */
+ .container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Form styling */
+.article-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Form group styling */
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+/* Label styling */
+.form-group label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #3b0539;
+}
+
+/* Input and textarea styling */
+.form-input, .form-textarea, .form-file {
+    padding: 10px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    transition: border-color 0.2s ease;
+}
+
+.form-input:focus, .form-textarea:focus, .form-file:focus {
+    border-color: #3b0539;
+    outline: none;
+}
+
+/* Textarea specific styling */
+.form-textarea {
+    resize: vertical; /* Allow vertical resizing */
+}
+
+/* File input styling */
+.form-file {
+    padding: 8px;
+}
+
+/* Button styling */
+.form-button {
+    padding: 12px 20px;
+    background-color: #3b0539;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.form-button:hover {
+    background-color: #5a0a57; /* Darker shade on hover */
+}
+.goback {
+    position: fixed;
+    top: 12px;
+    left: 15px;
+}
+
+.goback input[type="image"] {
+    width: 45px;
+    height: auto;
+    cursor: pointer;
+}
+
+.goback input[type="image"]:hover {
+    opacity: 0.8;
+}
